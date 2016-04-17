@@ -7,7 +7,28 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <StackPanel Margin="10,20,0,0">
+   
+            <TextBlock  Text="helloworld" FontSize="48" Margin="0,0,0,20"/>
 
-    </Grid>
+            <StackPanel Orientation="Horizontal">
+            <StackPanel Orientation="Horizontal">
+                <TextBlock   FontSize="48" TextWrapping="Wrap" Width="250" Margin="0,0,0,20">
+                    t1t1t1t1t1t1t1t1t1t1t1t1t1t1t1t1t1tt1t1t1t1t1t1t1t1t1t1t1t1t1t1t11t1t1
+                </TextBlock>
+                <TextBlock TextWrapping="Wrap" FontSize="48" Width="500" Margin="0,0,0,20" >
+                    t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2t2
+                </TextBlock>
+
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Rectangle  Fill="Blue" Height="200" Width="200" VerticalAlignment="Top"/>
+                <StackPanel>
+                    <Rectangle  Fill="Red" Height="100" Width="100"/>
+                    <Rectangle Fill="Yellow" Height="100" Width="100"/>
+                </StackPanel><!-- end red and yellow stackpanel-->
+            </StackPanel><!--end picture stackpanel -->
+            </StackPanel>
+        </StackPanel>
+
 </Page>
